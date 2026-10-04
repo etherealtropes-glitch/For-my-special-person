@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>happy birthday, bby.</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@500;600&display=swap');
+*{box-sizing:border-box}body{margin:0;background:#f8f7f4;color:#242225;font-family:"DM Sans",sans-serif}
+section{min-height:100vh;padding:70px 22px;display:flex;align-items:center;justify-content:center}
+.wrap{width:min(850px,100%)}.center{text-align:center}.tiny{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8b858b}
+h1,h2{font-family:"Playfair Display",serif;font-weight:500}h1{font-size:clamp(55px,11vw,105px);line-height:.9;margin:18px 0}h2{font-size:clamp(36px,6vw,58px);margin:8px 0 20px}p{line-height:1.85}
+.btn{border:1px solid #242225;background:#242225;color:white;border-radius:999px;padding:13px 20px;cursor:pointer;margin-top:15px}.btn.light{background:white;color:#242225}
+.hero{background:#fbfaf8}.hero p{max-width:560px;margin:0 auto 15px}.date{font-size:13px;letter-spacing:4px;color:#8b858b}
+.note{background:white;border:1px solid #e8e4df;border-radius:18px;padding:30px;box-shadow:0 10px 35px #00000008}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:center}.story img{width:100%;height:420px;object-fit:cover;border-radius:18px}.story .text{padding:15px}
+.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.photo-grid img{width:100%;height:260px;object-fit:cover;border-radius:15px;display:block}.photo-grid .wide{grid-column:span 2}
+.cardgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.card{background:white;border:1px solid #e7e3df;border-radius:17px;padding:22px;cursor:pointer;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0000000b}.hidden{display:none}.card p{margin-bottom:0;color:#5f5a60}
+.timeline{border-left:1px solid #cfc9c2;padding-left:24px}.event{margin:0 0 34px;position:relative}.event:before{content:"";position:absolute;left:-30px;top:8px;width:9px;height:9px;border-radius:50%;background:#242225}.year{font-size:12px;letter-spacing:2px;color:#8b858b}
+.letter{background:#fffdf8;border:1px solid #e8e0d4;border-radius:10px;padding:38px;font-family:"Playfair Display",serif;font-size:19px;line-height:2;box-shadow:0 12px 40px #00000009}
+.final{background:#242225;color:#fff}.final .tiny{color:#aaa2aa}.final h2{font-size:clamp(48px,9vw,82px)}.final p{color:#ddd7dd}.heart{font-size:35px;margin:20px}
+.quizbox{background:white;border:1px solid #e7e3df;border-radius:18px;padding:25px}.option{display:block;width:100%;padding:14px;margin:9px 0;text-align:left;border:1px solid #ddd8d2;background:#faf9f7;border-radius:12px;cursor:pointer}.option:hover{background:#f0ece7}.answer{font-weight:600;margin-top:12px}
+.reveal{margin-top:18px;padding:18px;background:#f7f3ee;border-radius:14px}
+@media(max-width:650px){.story{grid-template-columns:1fr}.story img{height:330px}.photo-grid{grid-template-columns:1fr 1fr}.photo-grid .wide{grid-column:span 2}.photo-grid img{height:230px}.cardgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="wrap center">
+<div class="tiny">05 october · for you</div>
+<h1>happy<br>birthday.</h1>
+<p>I wanted to make you something that actually feels like <i>you</i> instead of sending you one paragraph and calling it a day.</p>
+<button class="btn" onclick="go(1)">okay, open it.</button>
+</div>
+</section>
+
+<section>
+<div class="wrap story">
+<img src="photo-01.jpg" alt="him as a child">
+<div class="text">
+<div class="tiny">01 · before i knew you</div>
+<h2>look at this kid 😭</h2>
+<p>You had no idea that one day someone would be making a whole birthday website for you.</p>
+<p>And honestly, I had no idea either.</p>
+<button class="btn light" onclick="go(2)">next →</button>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">02 · how this started</div>
+<h2>2023.</h2>
+<div class="note">
+<p>I met you in 2023.</p>
+<p>Then on <b>1 April 2023</b>, somehow we went from being two people who knew each other to actually being together.</p>
+<p>And now look at us.</p>
+<p>It's been a long-distance relationship the whole way — India and Pakistan, two different places, a ridiculous amount of distance, and we've still managed to stay here.</p>
+<button class="btn light" onclick="go(3)">keep reading →</button>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap story">
+<div class="text">
+<div class="tiny">03 · and then life happened</div>
+<h2>it wasn't always easy.</h2>
+<p>We've had our share of problems. A lot, actually.</p>
+<p>There were difficult days, misunderstandings, distance, and moments when things were genuinely hard.</p>
+<p>But somehow, after all of it, we're still here. Still choosing each other. Still talking. Still laughing. Still caring.</p>
+<p><b>That means more to me than a perfect story ever could.</b></p>
+<button class="btn light" onclick="go(4)">next →</button>
+</div>
+<img src="photo-02.jpg" alt="him">
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">04 · the current version</div>
+<h2>and then you grew up.</h2>
+<div class="photo-grid">
+<img src="photo-03.jpg" alt="him">
+<img src="photo-04.jpg" alt="him">
+<img class="wide" src="photo-05.jpg" alt="him">
+</div>
+<p class="center">Same person. Different eras. Somehow still the same chomu.</p>
+<button class="btn" onclick="go(5)">there's more →</button>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">05 · things i love about you</div>
+<h2>not making this a top 5.</h2>
+<div class="cardgrid">
+<div class="card" onclick="reveal(this)">01 · your gentleness<div class="hidden">You have this gentle side with me that I really, really appreciate.</div></div>
+<div class="card" onclick="reveal(this)">02 · the way you care<div class="hidden">Even with all the distance between us, you still find ways to make me feel cared about.</div></div>
+<div class="card" onclick="reveal(this)">03 · us surviving everything<div class="hidden">We've been through a lot and somehow we're still standing here together.</div></div>
+<div class="card" onclick="reveal(this)">04 · your existence, unfortunately<div class="hidden">Yes, this is also why you get called chomu.</div></div>
+<div class="card" onclick="reveal(this)">05 · the little things<div class="hidden">The random conversations, jokes, messages and tiny moments are some of my favourites.</div></div>
+<div class="card" onclick="reveal(this)">06 · simply you<div class="hidden">I don't need a dramatic reason. I love you because you're you.</div></div>
+</div>
+<button class="btn" onclick="go(6)">next →</button>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">06 · a tiny test</div>
+<h2>birthday boy quiz.</h2>
+<div class="quizbox">
+<p><b>What nickname is probably going to appear somewhere on this website?</b></p>
+<button class="option" onclick="quiz(this,true)">baby</button>
+<button class="option" onclick="quiz(this,false)">Mr. Serious</button>
+<button class="option" onclick="quiz(this,true)">chomu</button>
+<div class="answer"></div>
+<p style="margin-top:28px"><b>What is today's job?</b></p>
+<button class="option" onclick="quiz(this,true)">Have a good birthday</button>
+<button class="option" onclick="quiz(this,false)">Pretend it's a normal day</button>
+<button class="option" onclick="quiz(this,false)">Do 47 hours of homework</button>
+<div class="answer"></div>
+</div>
+<button class="btn" onclick="go(7)">i think you passed →</button>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">07 · things i wish for you</div>
+<h2>for this year.</h2>
+<div class="note">
+<p>More peaceful days.</p>
+<p>More things that make you genuinely happy.</p>
+<p>More confidence in yourself.</p>
+<p>More stupid laughs.</p>
+<p>More memories.</p>
+<p>And hopefully, a little less stress.</p>
+<p>Mostly, I just hope you have a year that is kind to you.</p>
+<button class="btn light" onclick="go(8)">next →</button>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">08 · our timeline</div>
+<h2>so far.</h2>
+<div class="timeline">
+<div class="event"><div class="year">2023 · APRIL 1</div><h3>we became us.</h3><p>The beginning of this whole thing.</p></div>
+<div class="event"><div class="year">AFTER THAT</div><h3>distance became normal.</h3><p>Different countries, different days, but somehow we kept making space for each other.</p></div>
+<div class="event"><div class="year">THE HARD PARTS</div><h3>we didn't give up.</h3><p>Not everything was easy. But we're still here.</p></div>
+<div class="event"><div class="year">2026 · OCTOBER 5</div><h3>your birthday.</h3><p>And apparently I made you a whole website.</p></div>
+</div>
+<button class="btn" onclick="go(9)">one last chapter →</button>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="tiny">09 · the actual birthday message</div>
+<h2>dear bby,</h2>
+<div class="letter">
+Happy birthday, bby. ♡<br><br>
+I genuinely didn't know how to make a normal birthday wish for you, so obviously I made an entire website instead.<br><br>
+We've been together since 1 April 2023, and when I think about everything that's happened since then, it's actually crazy. We've had so many good moments, so many difficult ones, and a lot of things that could've made us give up. But we're still here.<br><br>
+I love how gentle you are with me. I love the little ways you care, the random conversations, the stupid jokes, and all the small things that probably don't look important from the outside but mean a lot to me.<br><br>
+We're long distance. We've never even met in person yet, and there's literally a whole border between us. But somehow you've still become such an important part of my life.<br><br>
+I don't know what the future is going to look like, but I do know that I'm really glad 2023 gave me you.<br><br>
+So happy birthday, baby. Happy birthday, bby. Happy birthday, chomu. 😭<br><br>
+I hope this year is good to you. You deserve good things.<br><br>
+And yes, I love you soooo much.<br><br>
+— your favourite person ♡
+</div>
+<button class="btn" onclick="go(10)">there is actually one more thing.</button>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap center">
+<div class="tiny">10 · final page</div>
+<div class="heart">♡</div>
+<h2>happy birthday,<br>bby.</h2>
+<p>05 · 10 · 2026</p>
+<p>That's it. No more pages.<br>...unless I decide to add another one.</p>
+<button class="btn light" onclick="document.getElementById('secret').classList.remove('hidden')">open the secret</button>
+<div id="secret" class="hidden" style="margin-top:24px">
+<p><b>secret:</b> you're still a chomu.</p>
+<p>but you're my chomu. ♡</p>
+</div>
+</div>
+</section>
+
+<script>
+const secs=[...document.querySelectorAll('section')];
+function go(i){secs[i].scrollIntoView({behavior:'smooth'})}
+function reveal(card){card.querySelector('.hidden').classList.toggle('hidden')}
+function quiz(btn,ok){let a=btn.parentElement.querySelectorAll('.answer');let opts=[...btn.parentElement.querySelectorAll('.option')];let block=btn.previousElementSibling;while(block && !block.classList.contains('answer')) block=block.previousElementSibling;let ans=btn.parentElement.querySelectorAll('.answer');let index=[...btn.parentElement.querySelectorAll('.option')].indexOf(btn);let which=index<3?0:1;ans[which].textContent=ok?'✓ correct. birthday-boy points +1.':'nope 😭 try again.'}
+</script>
+</body>
+</html>
